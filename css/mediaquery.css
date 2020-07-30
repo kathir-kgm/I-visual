@@ -1,0 +1,477 @@
+@media (max-width: 767.98px){
+    body , html {
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+/*  HOME PAGE  */
+.banner1{
+width: 100%;
+margin: 0 auto;
+height: 100vh;
+max-height: 100%;
+}
+.logo{
+position: relative;
+top: 0px;
+}
+
+.logo 
+.mainlogo1{
+    width: 40px;
+    position: relative;
+    left: 35px;
+}
+.logo .mainlogo2{
+    width: 100px;
+
+}
+.logo .mainlogo3{
+        width: 150px;
+    position: relative;
+    left: -35px;
+}
+.home{
+text-align: center;
+position: relative;
+top: 25%;
+transform: translateY(-75%);
+}
+.logo img {
+width: 230px;
+position: relative;
+}
+.ivisual h1 , .ivisual1 h1{
+font-size: 20px;
+}
+.home.visible2{
+top: 20%;
+left: 50%;
+transform: translate(-50%, -80%);
+}
+.sidemenu{
+display: flex;
+justify-content: space-between;
+top: 50%;
+    transform: translateY(-50%);
+}
+.title1 {
+transform: rotateZ(0deg);
+    margin-left: 45px;
+
+}
+.title2 {
+transform: rotateZ(0deg);
+    margin-right: 50px;
+
+}
+.sidemenu1::after , .sidemenu2::after{
+	display: none;
+}
+.sidemenu i{
+display: block;
+}
+.title1
+i.fa.fa-long-arrow-left {
+position: absolute;
+top: -3px;
+left: -35px;
+font-size: 25px;
+}
+i.fa.fa-long-arrow-right {
+position: absolute;
+top: -3px;
+right: -35px;
+font-size: 25px;
+}
+.title1 a,.title2 a{
+font-size: 16px;
+}
+
+
+.menu-btn{
+display: inline-block;
+vertical-align: middle;
+width: 30px;
+cursor: pointer;
+margin: 0px;
+top: 85%;
+position: fixed;
+cursor: pointer;
+left: 85%;
+transform:translate(-15% , -15%);
+}
+.main-btn {
+content: "";
+position: absolute;
+border: 1px solid black;
+width: 65px;
+height: 65px;
+border-radius: 50%;
+top: -31px;
+right: -17px;
+background: #000;
+}
+.homepage1{
+background: #fff;
+}
+.close-btn {
+position: absolute;
+width: 30px;
+height: 2px;
+background: #76c04e!important;
+margin-bottom: 7px;
+display: block;
+width: 100%;
+cursor: pointer;
+}
+.close-btn:before ,.close-btn:after{
+content: "";
+position: absolute;
+width: 30px;
+height: 2px;
+background: #76c04e!important;
+margin-bottom: 7px;
+display: block;
+} 
+.close-btn:before {
+top: -10px;
+transform: translateX(0%);
+}
+.close-btn:after {
+top: 10px;
+width: 100%;
+transform: translateX(0%);
+}
+.menu-btn.visible1 .close-btn{
+background: none!important;
+}
+.menu-btn.visible1 .close-btn:before{
+transform:rotate(45deg);
+margin-bottom: 0;
+position: relative;
+top: 0;
+width: 100%;
+}
+.menu-btn.visible1 .close-btn:after{
+transform:rotate(-45deg);
+margin-bottom: 0;
+position: relative;
+top: 0;
+width: 100%;
+}
+.menu-btn.visible1{
+top:85%;
+left: 85%;
+transform: translate(-15% , -15%);
+}
+.menu.visible:before {
+display: none;
+}
+.menu.visible{
+top: 25%;
+}
+.menu.visible:after{
+display: none;
+}
+.nav-link {
+color: #fff;
+font-size: 16px;
+padding: 15px;
+}
+.ivisual{
+position: relative;
+top: 100px;
+}
+.socialmedias li {
+list-style: none;
+display: inline;
+color: #fff;
+font-size: 35px;
+top: 20px;
+position: relative;
+letter-spacing: 0px;
+}
+.header{
+left: 5px;
+}
+/*   WE DO PAGE      */
+.banner2{
+height: auto;
+position: relative;
+}
+.colouredbanner {
+width: 215px;
+height: 15%;
+position: absolute;
+left: 0px;
+top: 0;
+}
+.banner2 img {
+position: relative;
+left: 40%;
+transform: translateX(-60%);
+width: 60px;
+}
+.smalllogo {
+width: 50px;
+height: 50px;
+background-size: 25px;
+right: -22px;
+}
+.subbanner1{
+padding: 20px;
+position: relative;
+top: 20px;
+width: 85%;
+margin: 0 auto;
+text-align: left;
+font-size: 14px;
+color: #4c4c4c;
+    padding-bottom: 40px;
+
+}
+.subbanner1 p{
+position: relative;
+left: 20px;
+}
+.we {
+left: -10px;
+font-size: 30px;
+top: 10px
+}
+.we:before {
+bottom: -25px;
+left: -10px;
+height: 86px;
+}
+.workborder{
+width: 250px;
+}
+.workprocess {
+position: relative;
+top: 80px;
+width: 90%;
+margin: 0 auto;
+}
+.workprocess h4 img{
+display: none;
+}
+.hl1,.hl2 ,.hl3{
+display: none;
+}
+.vl1,.vl2,.vl3{
+display: none;
+}
+.brief , .develop , .design , .all{
+text-align: center;
+width: 100%;
+margin: 0 auto;
+}
+.brief p , .develop p , .design p , .all p{
+    font-size: 15px;
+}
+
+.brief h4:after , .develop h4:after{
+display: none;
+}
+.design h4:before{
+display: none;
+}
+.all{
+padding-bottom: 110px;
+}
+.detailsbanner{
+padding-bottom: 250px;
+}
+.detailsbanner img{
+display: none;
+}
+.details1 {
+position: relative;
+top: 20px;
+width: 100%;
+margin: 0 auto;
+}
+.colourbanner {
+width: 215px;
+height: 65px;
+position: absolute;
+top: -35px;
+left: 0px;
+}
+.details1 h1{
+left: 30px;
+font-size: 30px;
+top: -10px;
+}
+.details1 i {
+font-size: 40px;
+position: relative;
+left: 25px;
+}
+.detailsborder {
+content: "";
+border: 1px solid black;
+width: 80px;
+position: absolute;
+transform: rotateZ(90deg);
+left: -21px;
+top: 7px;
+}
+.details1 p {
+position: absolute;
+left: 80px;
+top: 0;
+width: 70%;
+margin: 0 auto;
+font-size: 15px;
+padding-left: 0;
+padding-right: 0;
+}
+.sl{
+color: #4c4c4c!important;
+font-weight: initial;
+position: relative;
+left: 0px;
+}
+.tl{
+color: #4c4c4c!important;
+font-weight: initial;
+position: relative;
+left: 0px;
+}
+.ourworks {
+top: 250px;
+text-align: center;
+width: 100%;
+margin:0 auto;
+}
+.ourworks ul li{
+position: relative;
+left: -20px;
+}
+.designworks{
+text-align: center;
+}
+.developworks h4{
+left: 0;
+}
+.designworks:after{
+display: none!important;
+}
+.contactus{
+position: absolute;
+right: 60px;
+}
+.circletext {
+display: none;
+}
+.contactus img{
+width: 40px;
+height: 40px;
+top: -25px;
+}
+.aboutusfooter p {
+font-size: 40px;
+}
+.visualborder {
+position: relative;
+content: "";
+border: 2px solid #76c04e;
+width: 220px;
+bottom: -60px;
+}
+/*    VISUALS PAGE  */
+.project3 img {
+width: 200px;
+}
+/*   PROJECT1 PAGE    */
+.projectheader {
+background: #fff;
+width: 90%;
+margin: 0 auto;
+    margin-top: 50px;
+
+}
+.projectheader img{
+width: 150px;
+
+}
+.card1 {
+width: 85%;
+margin: 0 auto;
+    margin-top: -30px;
+
+}
+.card1 p{
+    font-size: 15px;
+}
+.customerdetails {
+padding: 25px;
+text-align: center;
+}
+.customerdetails .right {
+text-align: center;
+}
+.logoconcept {
+width: 90%;
+margin: 0 auto;
+background: #fff;
+}
+.colorconcept {
+width: 90%;
+margin: 0 auto;
+background: #fff;
+}
+.colorconcept h3 , .logoconcept h3{
+font-size: 20px;
+}
+.starsimages { 
+width: 90%;
+margin: 50px auto;  
+}
+.brandingimage {
+width: 90%;
+margin: 50px auto;
+}
+
+.website , .project2end{
+width: 90%;
+}
+.nextproject h1 {
+font-size: 25px;
+}
+.bollsimage {
+width: 90%;
+margin: 0 auto;
+background: #fff;
+    margin-top: 50px;
+
+}
+.project4end{
+width: 80%;
+}
+
+/*    CONTACT PAGE*/
+.contactlogo img {
+width: 230px;
+}
+.contact-form{
+width: 70%;
+ padding-top: 225px;
+}
+.addressbanner{
+width: 75%;
+}
+
+.visualfootertext{
+	font-size: 25px;
+}
+.footer p{
+    font-size: 15px;
+}
+.contactfootertext, .footertext{
+    font-size: 35px;
+}
+
